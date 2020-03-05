@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 20px;
+            margin: 0;
+            font-family: Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h4>El template será enviado al correo:</h4>
+    <form action="/send" method="POST">
+        <input required type="email" name="email" id="">
+        <button>Enviar template al correo</button>
+    </form>
+    <br><br>
+    <small>También se puede <a href="/public/template.html">visualizar el template aquí</a></small>
+</body>
+</html>
